@@ -5,6 +5,9 @@ In this project I used React JS along with:
 - Redux (Selectors/Actions/Operations/ Toolkit))
 - HTML/CSS/CSS modules
 
+
+So now you can login, add notes and enjoy my code :) 
+
 <img src="./project.png">
 
 
