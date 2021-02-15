@@ -3,7 +3,7 @@ import {
 } from 'react-router-dom'
 import UserMenu from './userMenuView'
 import AuthMenu from './authMenuView'
-import { getLoggedIn } from '../redux/users/user-selectors'
+import { getLoggedIn } from '../redux/user/user-selectors'
 import { useSelector } from 'react-redux'
 import * as styles from '../styles/header.module.css'
 export default function NavBarView() {

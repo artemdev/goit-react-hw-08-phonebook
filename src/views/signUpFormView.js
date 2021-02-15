@@ -1,4 +1,4 @@
-import { signUp } from '../redux/users/user-operations.js'
+import { signUp } from '../redux/user/user-operations.js'
 import { connect } from 'react-redux'
 import Section from '../components/section'
 import phonebook from '../styles/phonebook.module.css'

@@ -1,4 +1,4 @@
-import { logIn, fetchCurrentUser } from '../redux/users/user-operations.js'
+import { logIn, fetchCurrentUser } from '../redux/user/user-operations.js'
 import { connect } from 'react-redux'
 import * as phonebook from '../styles/phonebook.module.css'
 import Section from '../components/section'

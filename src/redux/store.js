@@ -1,7 +1,7 @@
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import contactsReducer from './contacts/contacts-slice';
 import filterReducer from './filter/filter-reducers';
-import userReducer from './users/user-slice';
+import userReducer from './user/user-slice';
 import storage from 'redux-persist/lib/storage';
 import {
   persistStore,

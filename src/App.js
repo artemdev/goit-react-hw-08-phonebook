@@ -4,11 +4,11 @@ import {
 } from 'react-router-dom'
 import React, { useEffect, Suspense, lazy } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchCurrentUser } from './redux/users/user-operations'
+import { fetchCurrentUser } from './redux/user/user-operations'
 import PrivateRoute from './components/privateRoute'
 import PublicRoute from './components/publicRoute'
 import Container from './components/container/container'
-import { getIsLoading } from './redux/users/user-selectors'
+import { getIsLoading } from './redux/user/user-selectors'
 
 const ContactsView = lazy(() => import('./views/contactsView'))
 const LoginFormView = lazy(() => import('./views/loginFormView'))
