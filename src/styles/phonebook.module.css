@@ -84,16 +84,28 @@ button:focus {
 
 /* mobile  */
 @media(max-width: 767px) {
+  .phonebookInputWrap {
+    margin: 0 20px 20px 20px;
+
+  }
+  .phonebookInput {
+    width: 200px;
+    max-width: 200px;
+  }
+   .phonebookLabel {
+    font-size: 0.9em;
+    font-weight: 600;
+    width: 20%;
+  }
     .phonebookHeader {
       max-width: 100%;
-      /* width: 100%; */
-    /* margin: 0 auto; */
     margin-bottom: 20px;
 margin-top: 0;
         border-radius: 0%;
     }
     .phonebookButton {
        border-radius: 0%;
+       width: 80%;
        max-width: 80%;
        margin: 0 auto 20px auto;
     }
