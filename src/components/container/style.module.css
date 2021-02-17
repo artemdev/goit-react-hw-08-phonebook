@@ -9,3 +9,15 @@
   align-items: center;
   height: 100vh;
 }
+
+/* mobile  */
+@media(max-width: 767px) {
+.container {
+  max-width: 100%;
+  border: none;
+}
+.container section{
+  max-width: 100%;
+  border: none;
+}
+}

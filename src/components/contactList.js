@@ -24,11 +24,11 @@ function ContactList({ contacts, filter, deleteContact }) {
           </div>
         ))
       ) : (
-        <div className={styles.phonebookContact}>
-          Contacts not found &#128530;
-          <span className="break"> Please add some</span>
-        </div>
-      )}
+          <div className={styles.phonebookContact}>
+            Contacts not found &#128530;
+            <span className="break"> Please add some</span>
+          </div>
+        )}
     </Section>
   );
 }

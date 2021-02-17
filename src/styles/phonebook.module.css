@@ -8,7 +8,9 @@
   color: #dddbe2;
   text-align: center;
   padding: 15px;
+    
 }
+
 
 .phonebookButton {
   font-size: 24px;
@@ -77,4 +79,28 @@ button:focus {
   align-items: center;
   font-weight: 700;
   margin-bottom: 10px;
+}
+
+
+/* mobile  */
+@media(max-width: 767px) {
+    .phonebookHeader {
+      max-width: 100%;
+      /* width: 100%; */
+    /* margin: 0 auto; */
+    margin-bottom: 20px;
+margin-top: 0;
+        border-radius: 0%;
+    }
+    .phonebookButton {
+       border-radius: 0%;
+       max-width: 80%;
+       margin: 0 auto 20px auto;
+    }
+    .phonebookContact {
+      max-width: 90%;
+      box-sizing: border-box;
+      /* padding: 0; */
+    margin: 0 auto;
+    }
 }

@@ -33,3 +33,20 @@ header{
     width: 200px;
 }
 
+
+/* mobile  */
+@media(max-width: 767px) {
+    header {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        /* margin-bottom: 20px; */
+    }
+    .headerLinks li {
+        width: 100%;
+    }  
+    .headerLinks ul {
+        width: 100%;
+    } 
+}
+
